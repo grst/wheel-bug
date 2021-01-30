@@ -1,0 +1,15 @@
+[build-system]
+requires = [
+    'flit_core >=2,<4',
+    'wheel',
+]
+build-backend = 'flit_core.buildapi'
+
+[tool.flit.metadata]
+module = 'testpkg'
+author = 'Gregor Sturm'
+author-email = 'gregor.sturm@i-med.ac.at'
+description-file = "README.rst"
+requires-python = '>= 3.6'
+requires = [
+]
